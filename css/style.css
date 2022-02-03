@@ -1,0 +1,63 @@
+nav li{
+    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    font-family: Helvetica;
+}
+
+nav{
+    padding-left: 500px;
+}
+
+.active{
+    background-color: rgb(183, 192, 219);
+    text-transform: uppercase;
+    border: 2px dashed black; 
+}
+
+.skip{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Helvetica;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Helvetica;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+    margin: 20px;
+    font-family: Helvetica;
+}
+
+
+footer{
+    background-color: rgb(176, 179, 223);
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px;
+    text-align: center;
+}
+
+img{
+    margin: 30px;
+    width: 150px;
+    border: 3px dashed rgb(48, 33, 33);
+    padding: 10px;
+}
+
+img:hover{
+    border: 1px dashed rgb(82, 65, 65);
+    opacity: 0.2;
+} 
+
+img:nth-child(2n) {
+    border: 3px dashed rgb(140, 144, 207);
+  }
