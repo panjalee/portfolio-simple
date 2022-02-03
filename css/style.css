@@ -51,6 +51,7 @@ img{
     width: 150px;
     border: 3px dashed rgb(48, 33, 33);
     padding: 10px;
+    border-radius: 8px;
 }
 
 img:hover{
