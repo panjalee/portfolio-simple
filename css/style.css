@@ -3,16 +3,27 @@ nav li{
     display: inline-block;
     margin: 10px;
     font-family: Helvetica;
+    border: 2px solid rgb(48, 33, 33);
 }
 
 nav{
     padding-left: 500px;
 }
 
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+li a { 
+    text-decoration: none;  
+}
+
 .active{
     background-color: rgb(183, 192, 219);
     text-transform: uppercase;
-    border: 2px dashed black; 
+    text-decoration: black wavy underline;
+    text-shadow: 2px 0px 0px white;
 }
 
 .skip{
@@ -35,7 +46,6 @@ p {
     font-family: Helvetica;
 }
 
-
 footer{
     background-color: rgb(176, 179, 223);
     padding: 10px;
@@ -54,11 +64,7 @@ img{
     border-radius: 8px;
 }
 
-img:hover{
-    border: 1px dashed rgb(82, 65, 65);
-    opacity: 0.2;
-} 
-
-img:nth-child(2n) {
+img:hover:nth-child(2n) {
     border: 3px dashed rgb(140, 144, 207);
-  }
+    opacity: 0.2;
+}
